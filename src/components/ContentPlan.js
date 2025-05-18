@@ -208,25 +208,12 @@ const ContentPlan = ({ api }) => {
                     <i className={`fab fa-${platformDetails.icon}`}></i> {platformDetails.name}
                   </div>
                   
-                  {highlight && (
-                    <div className="post-thumbnail">
-                      {highlight.thumbnail_path ? (
-                        <img 
-                          src={`${process.env.PUBLIC_URL}/${highlight.thumbnail_path}`}
-                          alt={post.title} 
-                        />
-                      ) : (
-                        <div className="thumbnail-placeholder">
-                          <i className="fas fa-image"></i>
-                        </div>
-                      )}
-                    </div>
-                  )}
+
                   
                   <div className="post-content">
                     <h3>{post.title}</h3>
                     <p className="post-date">
-                      <i className="fas fa-calendar"></i> Post on {formatDate(post.suggested_posting_date)}
+                      <i className="fas fa-calendar"></i>
                     </p>
                     
                     <div className="post-caption">

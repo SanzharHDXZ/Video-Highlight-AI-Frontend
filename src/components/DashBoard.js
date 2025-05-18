@@ -132,7 +132,7 @@ const Dashboard = ({ videos, isLoading, onDeleteVideo, onRefresh }) => {
                 {/* Display video thumbnail or placeholder */}
                 {video.thumbnail_path ? (
                   <img 
-                    src={`/api/thumbnails/${video.id}`} 
+                    src={`/localhost:8000/thumbnails/${video.id}`} 
                     alt={video.title} 
                   />
                 ) : (

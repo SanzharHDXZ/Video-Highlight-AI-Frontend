@@ -13,9 +13,10 @@ const HighlightCard = ({ highlight, isSelected, onClick, formatDuration }) => {
       <div className="highlight-card-thumbnail">
         {highlight.thumbnail_path ? (
           <img 
-            src={`${process.env.PUBLIC_URL}/${highlight.thumbnail_path}`}
+            src={`http://localhost:8000/${highlight.thumbnail_path}`} 
             alt={highlight.title} 
           />
+        
         ) : (
           <div className="thumbnail-placeholder">
             <i className="fas fa-film"></i>

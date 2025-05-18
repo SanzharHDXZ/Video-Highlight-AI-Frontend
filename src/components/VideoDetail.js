@@ -252,7 +252,7 @@ const VideoDetail = ({ api, onDeleteVideo }) => {
                 {selectedHighlight && (
                   <>
                     <video
-                      src={`${process.env.PUBLIC_URL}/${selectedHighlight.clip_path}`}
+                      src={`http://localhost:8000/${selectedHighlight.clip_path}`}
                       controls
                       autoPlay
                       className="highlight-video"
