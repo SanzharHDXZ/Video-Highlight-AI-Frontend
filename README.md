@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+🎬 Video Highlight AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📌 Описание
 
-## Available Scripts
+Video Highlight AI — это интеллектуальный веб-сервис, который автоматически анализирует видео, выделяет ключевые моменты и создает короткие клипы для социальных сетей (YouTube Shorts, TikTok, Instagram Reels и др.). Также сервис предлагает генерацию заголовков и описаний с помощью искусственного интеллекта.
 
-In the project directory, you can run:
+🧱 Технологии
 
-### `npm start`
+🔙 Бэкенд
+Python
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+MoviePy — нарезка и обработка видео
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Gemini (Google AI) — генерация названий, описаний и анализа ключевых моментов
 
-### `npm test`
+FastAPI — REST API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🎨 Фронтенд
 
-### `npm run build`
+React — UI
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+JavaScript
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Axios — для связи с API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+CSS / Bootstrap — стилизация
 
-### `npm run eject`
+Ссылка на репозиторий бэкенда: https://github.com/SanzharHDXZ/Video-Highlight-AI-Backend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+💡 Функции
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📤 Загрузка видео
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🎞 Автоматическое выделение важных фрагментов (AI Highlights)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🧠 Генерация описаний, названий и постов с помощью Gemini
 
-## Learn More
+📅 Планировщик публикаций по платформам
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📺 Просмотр, сортировка и копирование контента
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🚀 Инициализация
 
-### Code Splitting
+1. Клонировать проект
+git clone https://github.com/SanzharHDXZ/Video-Highlight-AI-Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Установить зависимости
+Бэкенд:
 
-### Analyzing the Bundle Size
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Фронтенд:
 
-### Making a Progressive Web App
+cd frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm install
 
-### Advanced Configuration
+3. Запуск
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Бэкенд:
 
-### Deployment
+python main.py
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Фронтенд:
 
-### `npm run build` fails to minify
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🧠 Примеры использования
+
+Подкастеры: автоматизация клипов и их публикаций
+
+Инфлюенсеры: быстрое создание контента
+
+Онлайн-школы: деление длинных лекций на краткие фрагменты
+
+Маркетологи: AI-контент для продвижения продуктов
+
+📜 Лицензия
+
+MIT License. См. файл LICENSE.
+
